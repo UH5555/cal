@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    span.s1 {font: 12.0px 'PingFang SC'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;<span class="s1">前后轴载荷计算器</span>&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>label {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 150px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>text-align: right;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>input[type="number"] {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>#result {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;<span class="s1">前后轴载荷计算器</span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="total-weight"&gt;<span class="s1">车辆总重（</span>kg<span class="s1">）：</span>&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="number" id="total-weight" required&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="front-axle-position"&gt;<span class="s1">前轴位置（相对车辆前端的距离，</span>mm<span class="s1">）：</span>&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="number" id="front-axle-position" required&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="rear-axle-position"&gt;<span class="s1">后轴位置（相对车辆前端的距离，</span>mm<span class="s1">）：</span>&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="number" id="rear-axle-position" required&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="cg-position"&gt;<span class="s1">重心位置（相对车辆前端的距离，</span>mm<span class="s1">）：</span>&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="number" id="cg-position" required&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button" onclick="calculate()"&gt;<span class="s1">计算</span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="result"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="script.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
